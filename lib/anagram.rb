@@ -1,8 +1,8 @@
 class Anagram
-  attr_accessor :word
+  attr_accessor :my_word
   
   def initialize(word)
-    word = word
+    my_word = word
   end
   
   def match(list)
@@ -14,7 +14,7 @@ class Anagram
   private
   
   def isMatch(potential_match)
-    word.sort == potential_match.sort
+    My_word.sort == potential_match.sort
   end
   
   
