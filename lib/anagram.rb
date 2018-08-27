@@ -14,7 +14,7 @@ class Anagram
   private
   
   def isMatch(potential_match)
-    my_word.sort == potential_match.sort
+    word.sort == potential_match.sort
   end
   
   
