@@ -7,7 +7,7 @@ class Anagram
   
   def match(list)
     
-    list.collect { |w| isMatch(w) }
+    list.select { |w| isMatch(w) }
     
   end
   
