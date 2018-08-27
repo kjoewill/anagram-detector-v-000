@@ -1,8 +1,8 @@
 class Anagram
-  attr_accessor :my_word
+  attr_accessor :word
   
   def initialize(word)
-    my_word = word
+    @word = word
   end
   
   def match(list)
